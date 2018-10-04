@@ -2,10 +2,10 @@
 Pure Javascript secret easter eggs for FabFitFun.
 
 ### Version 0.0.5 - October 4th, 2018
-- Type a secret command where this easter egg is loaded to see these effects.
+- Type a secret command with keyboard where this easter egg is loaded to see these effects.
 
 ### Instructions
-Either reference javascript code via script tag, or paste the code nested inside of a script tag. Google tag manager is a good way to inject this. The index.html is simply there for you to quickly test
+Either reference javascript code via script tag, or paste the code nested inside of a script tag. Google tag manager is a good way to inject this. The index.html is simply there for you to quickly test what the effects look like.
 
 ## Goals
 - Not dependant on any library.
@@ -16,18 +16,20 @@ Either reference javascript code via script tag, or paste the code nested inside
 - Heavily scoped as to not potentially affect the workings of the site.
 
 
-###Fireworks
+### Fireworks
 up up down down fff(up up down down f f f)
 Then use your mouse and click around
 
-###Snow (for Winter)
+### Snow (for Winter)
 Type: up s n o w (press up and then type “snow”)
 
-###Falling Leaves (For Fall)
+### Falling Leaves (For Fall)
 Type: up f a l l (press up and then type “fall”)
 
-###To Exit and Clear all Effects
+### To Exit and Clear all Effects
 Press the escape key twice.
+
+
 
 
 ## Credits
