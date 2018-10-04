@@ -29,6 +29,12 @@ Type: up f a l l (press up and then type “fall”)
 ### To Exit and Clear all Effects
 Press the escape key twice.
 
+## Notes
+- The key sequences is not ASCII but uses Javascript keycodes. These are two digit values and you can see what they are by going to https://keycode.info/
+- All CSS is loaded programmatically, so I used a CSS minimizer https://cssminifier.com/ to be able to easily fit into vanilla Javascript. For example: 
+```  mainCanvas.setAttribute("style", "position: fixed;opacity:0.3;display: hidden;width: 100%; ...```
+- Images are converted from PNG/JPG using a byte64 encoder.
+```   fff_easter_bigglow.setAttribute("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAA ...```
 
 
 
